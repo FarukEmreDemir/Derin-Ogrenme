@@ -1,0 +1,16 @@
+Grup,Deney,Aktivasyon,LR,Optimizer,Baslangic,Epoch,Son_Loss,Min_Loss,RMSE,Sure_sn
+1_Aktivasyon,sigmoid,sigmoid,0.01,Adam,normal,1000,0.000166,0.000166,0.018212,21.41
+1_Aktivasyon,tanh,tanh,0.01,Adam,normal,1000,9.4e-05,9.4e-05,0.013716,21.229
+1_Aktivasyon,relu,relu,0.01,Adam,normal,1000,0.000154,0.000154,0.017544,20.537
+1_Aktivasyon,leaky_relu,leaky_relu,0.01,Adam,normal,1000,0.000156,0.000156,0.017681,20.543
+1_Aktivasyon,elu,elu,0.01,Adam,normal,1000,0.000467,0.000467,0.030566,20.41
+1_Aktivasyon,prelu,prelu,0.01,Adam,normal,1000,3.4e-05,3.4e-05,0.008191,20.79
+1_Aktivasyon,silu,silu,0.01,Adam,normal,1000,0.003732,0.003732,0.086395,20.917
+2_OgrenmeOrani,lr_0.001,relu,0.001,Adam,normal,1000,0.002334,0.002334,0.068322,20.635
+2_OgrenmeOrani,lr_0.01,relu,0.01,Adam,normal,1000,0.000154,0.000154,0.017544,20.523
+2_OgrenmeOrani,lr_0.1,relu,0.1,Adam,normal,1000,4.3e-05,4.3e-05,0.009324,20.724
+3_Optimizer,sgd,relu,0.01,SGD,normal,1000,0.001648,0.001648,0.057406,20.354
+3_Optimizer,adam,relu,0.01,Adam,normal,1000,0.000154,0.000154,0.017544,20.415
+3_Optimizer,rmsprop,relu,0.01,RMSprop,normal,1000,0.000938,0.000847,0.043306,20.299
+4_BaslangicDagilimi,normal,relu,0.01,Adam,normal,1000,0.000154,0.000154,0.017544,20.364
+4_BaslangicDagilimi,uniform,relu,0.01,Adam,uniform,1000,0.002616,0.002616,0.072336,20.364
